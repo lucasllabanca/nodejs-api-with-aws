@@ -70,17 +70,9 @@ export class FitcardApiStack extends cdk.Stack {
           valor: {
             type: apigateway.JsonSchemaType.NUMBER
           }
-          /*,
-          codigosItens: {
-            type: apigateway.JsonSchemaType.ARRAY,
-            minItems: 1,
-            items: {
-                type: apigateway.JsonSchemaType.NUMBER
-            }
-          },
-          status: {
+          /*,statusOs: {
               type: apigateway.JsonSchemaType.STRING,
-              enum: ["AGUARDANDO_COTACAO", "APROVADA", "CACENLADA"]
+              enum: ["AGUARDANDO_COTACAO", "APROVADA", "CANCELADA"]
           }*/
         },
         required: [
