@@ -1,4 +1,4 @@
-# serverless-nodejs-api-with-aws
+# fitcard_api
 
 NodeJS REST API with AWS CloudFormation using CDK, API Gateway, Lambda Functions, DynamoDB, Cloud Watch, SQS and Auto Scaling
 
